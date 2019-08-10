@@ -23,6 +23,16 @@ HomeScreen.navigationOptions = {
     title: 'Home'
 };
 
+
+/**
+|--------------------------------------------------
+| @What_I_want_here_is 
+
+| To have different combinations of StackNavigator, 
+| TabNavigator and other different types of Navigator
+|--------------------------------------------------
+*/
+
 const AppNavigator = createStackNavigator({Home: HomeScreen});
 
 export default createAppContainer(AppNavigator);
